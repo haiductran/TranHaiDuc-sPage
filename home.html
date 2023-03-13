@@ -10,29 +10,166 @@
 </head>
 
 <body>
-    <div class="hero">
-        <nav>
-            <h2 class="logo">Class <span> 10a11</span></h2>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .main {
+            width: 100%;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+            background-image: url('https://cdn.pixabay.com/photo/2017/07/25/14/54/rain-2538429_960_720.jpg');
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            font-family: sans-serif;
+        }
+        
+        .navbar {
+            width: 95%;
+            height: auto;
+            margin-left: 30px;
+        }
+        
+        .logo {
+            color: #ff7200;
+            font-size: 40px;
+            font-family: cursive;
+            float: left;
+            padding-top: .6%;
+            cursor: pointer;
+        }
+        
+        .menu {
+            width: 600px;
+            float: left;
+            height: 70px;
+        }
+        
+        ul {
+            float: left;
+            display: flex;
+            padding-top: 30px;
+            justify-content: center;
+            align-items: center;
+            margin-left: 14%;
+        }
+        
+        ul li {
+            list-style: none;
+            margin-left: 60px;
+            font-size: 16px;
+        }
+        
+        ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            transition: .3s ease;
+        }
+        
+        ul li a:hover {
+            color: #ff7200;
+        }
+        
+        .search-box {
+            float: right;
+            width: 240px;
+            background: #fff;
+            height: 30px;
+            padding: 8px;
+            border-radius: 15px;
+            margin-top: 1.4%;
+            margin-right: 2%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .search-box .search-txt {
+            width: 190px;
+            padding: 0 6px;
+            border: none;
+            background: none;
+            outline: none;
+            float: left;
+            color: #000;
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: .6px;
+        }
+        
+        .search-btn {
+            text-decoration: none;
+            color: #000;
+        }
+        
+        .title {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .title h1 {
+            cursor: pointer;
+            font-family: cursive;
+            color: #fff;
+            font-size: 85px;
+        }
+        
+        .button {
+            position: absolute;
+            top: 51%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .btn {
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 18px;
+            text-decoration: none;
+            border: 1px solid #fff;
+            transition: 0.3s ease;
+        }
+        
+        .btn:hover {
+            background-color: #fff;
+            color: #000;
+        }
+    </style>
+    <div class="main">
+        <div class="navbar">
+            <h2 class="logo">YO!What's Up</h2>
+        </div>
+        <div class="menu">
             <ul>
-                <li><a href="https://paint-caramel-crabapple.glitch.me/">Home</a></li>
-                <li><a href="http://127.0.0.1:5500/index.html">About Us</a></li>
-                <li>
-                    <a href="https://www.facebook.com/Tran.Hai.Duc.207/">contact</a>
-                </li>
+                <li><a href="http://127.0.0.1:5500/home.html">HOME</a></li>
+                <li><a href="https://haiductran.github.io/MyPrj/">About Us</a></li>
+                <li><a href="https://www.facebook.com/Tran.Hai.Duc.207/">Contact</a></li>
                 <li><a href="http://127.0.0.1:5500/gallery.html">Gallery</a></li>
-                <li><a href="">Quiz</a></li>
+                <li><a href="#">Quizz</a></li>
             </ul>
-        </nav>
-    </div>
-    <h1>
-        English Project
-    </h1>
-    <div id="sidebar">
-        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/334931284_1260620901499570_7738784255096156328_n.png?_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_ohc=NUCnJsiRFoUAX8MTLsv&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRPtRqcpt84Doxb19nEcyq8luMSSuOWAcWfQ8vkG9Zi7A&oe=642CFE3F"
-        />
-    </div>
+        </div>
+        <div class="search-box">
+            <input type="text" class="search-txt" name="" placeholder="There's Nothing" />
+            <a href="#" class="search-btn"><i class="fas fa-search"></i></a>
+        </div>
+        <div class="title">
+            <h1>Group 4</h1>
+        </div>
 
+        <div class="button">
+            <a href="https://drive.google.com/drive/u/0/folders/14ptC5cdceMKX5ZCo65vOiobydoMuQxMD" class="btn">our Videos</a>
+            <a href="https://drive.google.com/drive/u/0/folders/1gvs6jy1Xwjo93TMFD2jpUpM-x0bCZhxR" class="btn">Our PPT</a>
+        </div>
+    </div>
 </body>
-</body>
+
+</html>
 
 </html>
